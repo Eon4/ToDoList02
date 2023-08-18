@@ -12,7 +12,7 @@ export const Todo = () => {
 
 
   //New const 
-  const [inputText, setInputText] = useState("");
+//   const [inputText, setInputText] = useState("");
 
   const addToArray = () => {
         let clone = [...todoArray]
@@ -36,7 +36,7 @@ export const Todo = () => {
       <input placeholder={"Sæt ind her"} value={text} onChange={(event) => setText(event.target.value)} />
       <div>
         {todoArray && todoArray.map((item, index) => <p key={index}>{item}</p>)}
-        <button onClick={addToArray}>Tilføj</button>
+        <button onClick={addToArray}>Tilføj tekst her</button>
 
       </div>
 
