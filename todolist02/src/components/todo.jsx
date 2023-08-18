@@ -4,7 +4,7 @@ import style from "../style/todo.module.scss";
 export const Todo = () => {
   const [todoArray, setTodoArray] = useState([]);
 
-  //New const to give a new value, wich is
+  //New const 
   const [inputText, setInputText] = useState("");
 
   const addToArray = () => {
